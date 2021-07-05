@@ -6,7 +6,7 @@ import { Directive, ElementRef, HostListener, Input, OnInit, Renderer2 } from "@
  * <input numeric type="text" decimals="2" negative="1" />
  * 
  * Reference = https://gist.github.com/ahmeti/5ca97ec41f6a48ef699ee6606560d1f7
- */
+ */ 
 @Directive({
   selector: "[onlyNumeric]"
 })
